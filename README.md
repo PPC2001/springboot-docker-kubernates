@@ -162,6 +162,9 @@ Delete the Kubernetes cluster to avoid unnecessary charges:
 
 gcloud container clusters delete spring-boot-cluster --zone us-west1-a
 
+![image](https://github.com/user-attachments/assets/c2f8da41-e7f8-46f8-96fe-8a247af83bf7)
+
+
 
 
 
