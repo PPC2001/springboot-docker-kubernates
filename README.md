@@ -48,6 +48,7 @@ Access http://localhost:8080/hello to verify the container works.
 ![image](https://github.com/user-attachments/assets/107c337e-6dfb-43cc-aa57-dd93b2c7e238)
 
 
+----------
 
 3. Push the Docker Image to Docker Hub
 
@@ -62,6 +63,8 @@ docker push ppc2001/spring-boot-app:v1
 
 ![image](https://github.com/user-attachments/assets/40d5be06-9fb8-4538-87e6-0a7154a5b7f6)
 
+
+-----------------
 
 4. Set Up GCP and Kubernetes
 
@@ -100,6 +103,8 @@ gcloud container clusters get-credentials spring-boot-cluster --zone us-east1-b
 ![image](https://github.com/user-attachments/assets/4ded6006-28d0-4d69-b89d-9cf81b605a87)
 
 
+---------------
+
 5. Deploy the Application to Kubernetes
 
 Step 5.1: Create Kubernetes Deployment
@@ -125,6 +130,8 @@ kubectl apply -f spring-boot-deployment.yaml
 kubectl apply -f spring-boot-service.yaml
 
 
+------------------------
+
 6. Verify the Deployment
 
 Step 6.1: Check Pods
@@ -145,6 +152,9 @@ Step 6.3: Test the Application
 Access the application at http://<EXTERNAL-IP>/hello to verify it works.
 
 ![image](https://github.com/user-attachments/assets/9d219ad3-a560-4fe7-ad25-29bd8bf9e454)
+
+
+------------------
 
 7. Clean Up Resources
 
